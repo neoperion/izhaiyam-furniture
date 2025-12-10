@@ -51,14 +51,14 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-primary font-medium tracking-wider uppercase text-sm mb-4">
-                About Woodcraft
+                About IZHAYAM HANDLOOM FURNITURE
               </p>
               <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">
                 Where Tradition Meets Modern Design
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Founded in 2010, Woodcraft began as a small family workshop in the heart of India's 
+                  Founded in 2010, IZHAYAM HANDLOOM FURNITURE began as a small family workshop in the heart of India's 
                   furniture district. What started as a passion project by our founder has grown into 
                   one of the most trusted names in premium furniture.
                 </p>

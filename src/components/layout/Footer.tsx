@@ -41,7 +41,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-4">
-              <span className="text-2xl font-semibold tracking-tight">Woodcraft</span>
+              <span className="text-2xl font-semibold tracking-tight">IZHAYAM HANDLOOM FURNITURE</span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6 max-w-sm">
               Crafting timeless furniture with passion and precision. Every piece tells a story of 
@@ -128,7 +128,7 @@ export function Footer() {
             </div>
             <div className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-primary-foreground/50" />
-              <span className="text-sm text-primary-foreground/70">hello@woodcraft.com</span>
+              <span className="text-sm text-primary-foreground/70">hello@izhayamfurniture.com</span>
             </div>
           </div>
         </div>
@@ -138,7 +138,7 @@ export function Footer() {
       <div className="border-t border-primary-foreground/10">
         <div className="container-page py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-primary-foreground/50">
-            © 2024 Woodcraft. All rights reserved.
+            © 2024 IZHAYAM HANDLOOM FURNITURE. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">

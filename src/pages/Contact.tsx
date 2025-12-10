@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email Us',
-    details: ['hello@woodcraft.com', 'support@woodcraft.com'],
+    details: ['hello@izhayamfurniture.com', 'support@izhayamfurniture.com'],
   },
   {
     icon: Clock,
