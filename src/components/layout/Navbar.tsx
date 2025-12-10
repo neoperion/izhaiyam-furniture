@@ -17,7 +17,7 @@ export function Navbar() {
   const location = useLocation();
 
   return (
-    <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
+    <header className="sticky top-0 z-50 bg-[hsl(var(--wood-header))] backdrop-blur-md border-b border-[hsl(var(--wood-medium)/0.2)] shadow-sm">
       <nav className="container-page">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
@@ -25,7 +25,8 @@ export function Navbar() {
             <img 
               src={logoImage} 
               alt="Logo" 
-              className="h-10 md:h-12 w-auto object-contain"
+              className="h-16 md:h-18 w-auto object-contain brightness-0 saturate-100"
+              style={{ filter: 'brightness(0) saturate(100%) invert(17%) sepia(15%) saturate(1200%) hue-rotate(356deg) brightness(92%) contrast(90%)' }}
             />
           </Link>
 
