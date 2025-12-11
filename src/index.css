@@ -6,101 +6,101 @@
 
 @layer base {
   :root {
-    /* Warm furniture palette */
-    --background: 40 33% 98%;
-    --foreground: 30 10% 15%;
+    /* Modern sage green (#93A267) & cream (#F8EFDA) palette */
+    --background: 30 50% 95%;
+    --foreground: 92 25% 35%;
 
-    --card: 40 30% 96%;
-    --card-foreground: 30 10% 15%;
+    --card: 35 35% 96%;
+    --card-foreground: 92 25% 35%;
 
-    --popover: 40 33% 98%;
-    --popover-foreground: 30 10% 15%;
+    --popover: 30 50% 95%;
+    --popover-foreground: 92 25% 35%;
 
-    /* Warm brown primary */
-    --primary: 30 45% 45%;
-    --primary-foreground: 40 33% 98%;
+    /* Sage Green primary - #93A267 */
+    --primary: 92 25% 52%;
+    --primary-foreground: 35 50% 98%;
 
-    /* Light tan secondary */
-    --secondary: 35 30% 90%;
-    --secondary-foreground: 30 20% 25%;
+    /* Cream secondary - #F8EFDA */
+    --secondary: 30 50% 95%;
+    --secondary-foreground: 92 25% 35%;
 
-    --muted: 35 20% 92%;
-    --muted-foreground: 30 10% 45%;
+    --muted: 35 20% 90%;
+    --muted-foreground: 92 15% 50%;
 
-    /* Accent - warm gold/tan */
-    --accent: 35 50% 85%;
-    --accent-foreground: 30 20% 20%;
+    /* Accent - sage green variations */
+    --accent: 92 25% 52%;
+    --accent-foreground: 35 50% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 35 25% 88%;
-    --input: 35 25% 88%;
-    --ring: 30 45% 45%;
+    --border: 35 30% 88%;
+    --input: 35 30% 88%;
+    --ring: 92 25% 52%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     /* Custom design tokens */
-    --wood-light: 35 35% 75%;
-    --wood-medium: 30 40% 55%;
-    --wood-dark: 25 35% 30%;
-    --wood-header: 35 25% 85%;
-    --cream: 40 40% 95%;
-    --warm-white: 40 33% 99%;
+    --sage-light: 92 30% 70%;
+    --sage-medium: 92 25% 52%;
+    --sage-dark: 92 30% 38%;
+    --cream-light: 35 50% 97%;
+    --cream: 35 50% 96%;
+    --cream-dark: 35 45% 90%;
 
-    /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(30 20% 20% / 0.08);
-    --shadow-card: 0 8px 30px -8px hsl(30 20% 20% / 0.12);
-    --shadow-hover: 0 12px 40px -10px hsl(30 20% 20% / 0.18);
+    /* Shadows - modern soft */
+    --shadow-soft: 0 2px 8px hsl(92 25% 35% / 0.06);
+    --shadow-card: 0 4px 16px hsl(92 25% 35% / 0.08);
+    --shadow-hover: 0 8px 24px hsl(92 25% 35% / 0.12);
 
     /* Sidebar */
-    --sidebar-background: 40 30% 96%;
-    --sidebar-foreground: 30 10% 25%;
-    --sidebar-primary: 30 45% 45%;
-    --sidebar-primary-foreground: 40 33% 98%;
-    --sidebar-accent: 35 30% 90%;
-    --sidebar-accent-foreground: 30 20% 25%;
-    --sidebar-border: 35 25% 88%;
-    --sidebar-ring: 30 45% 45%;
+    --sidebar-background: 35 50% 96%;
+    --sidebar-foreground: 92 25% 35%;
+    --sidebar-primary: 92 25% 52%;
+    --sidebar-primary-foreground: 35 50% 98%;
+    --sidebar-accent: 35 50% 96%;
+    --sidebar-accent-foreground: 92 25% 35%;
+    --sidebar-border: 35 30% 88%;
+    --sidebar-ring: 92 25% 52%;
   }
 
   .dark {
-    --background: 25 20% 8%;
-    --foreground: 40 20% 95%;
+    --background: 92 25% 15%;
+    --foreground: 35 50% 92%;
 
-    --card: 25 18% 12%;
-    --card-foreground: 40 20% 95%;
+    --card: 92 25% 20%;
+    --card-foreground: 35 50% 92%;
 
-    --popover: 25 18% 12%;
-    --popover-foreground: 40 20% 95%;
+    --popover: 92 25% 20%;
+    --popover-foreground: 35 50% 92%;
 
-    --primary: 35 50% 60%;
-    --primary-foreground: 25 20% 8%;
+    --primary: 92 25% 52%;
+    --primary-foreground: 92 25% 15%;
 
-    --secondary: 25 15% 18%;
-    --secondary-foreground: 40 20% 90%;
+    --secondary: 35 50% 88%;
+    --secondary-foreground: 92 25% 15%;
 
-    --muted: 25 15% 18%;
-    --muted-foreground: 35 15% 55%;
+    --muted: 92 20% 28%;
+    --muted-foreground: 35 40% 65%;
 
-    --accent: 30 30% 25%;
-    --accent-foreground: 40 20% 95%;
+    --accent: 92 25% 58%;
+    --accent-foreground: 92 25% 15%;
 
     --destructive: 0 62% 30%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 25 15% 20%;
-    --input: 25 15% 20%;
-    --ring: 35 50% 60%;
+    --border: 92 20% 25%;
+    --input: 92 20% 25%;
+    --ring: 92 25% 52%;
 
-    --sidebar-background: 25 18% 10%;
-    --sidebar-foreground: 40 20% 90%;
-    --sidebar-primary: 35 50% 60%;
-    --sidebar-primary-foreground: 25 20% 8%;
-    --sidebar-accent: 25 15% 18%;
-    --sidebar-accent-foreground: 40 20% 90%;
-    --sidebar-border: 25 15% 20%;
-    --sidebar-ring: 35 50% 60%;
+    --sidebar-background: 92 25% 12%;
+    --sidebar-foreground: 35 50% 90%;
+    --sidebar-primary: 92 25% 52%;
+    --sidebar-primary-foreground: 92 25% 15%;
+    --sidebar-accent: 35 50% 88%;
+    --sidebar-accent-foreground: 35 50% 88%;
+    --sidebar-border: 92 20% 25%;
+    --sidebar-ring: 92 25% 52%;
   }
 }
 
@@ -128,24 +128,24 @@
   }
 
   .card-product {
-    @apply bg-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-hover;
+    @apply bg-card rounded-lg overflow-hidden transition-all duration-300 hover:shadow-hover border border-border/50;
     box-shadow: var(--shadow-card);
   }
 
   .card-product:hover {
-    @apply -translate-y-1;
+    @apply -translate-y-2 shadow-lg;
   }
 
   .btn-primary {
-    @apply bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:opacity-90 hover:shadow-lg;
+    @apply bg-primary text-primary-foreground px-7 py-3.5 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:bg-primary/95 active:scale-95;
   }
 
   .btn-secondary {
-    @apply bg-secondary text-secondary-foreground px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-secondary/80;
+    @apply bg-secondary text-secondary-foreground px-7 py-3.5 rounded-lg font-semibold transition-all duration-300 hover:bg-secondary/90 active:scale-95;
   }
 
   .btn-outline {
-    @apply border-2 border-primary text-primary px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-primary hover:text-primary-foreground;
+    @apply border-2 border-primary text-primary px-7 py-3.5 rounded-lg font-semibold transition-all duration-300 hover:bg-primary hover:text-primary-foreground active:scale-95;
   }
 
   .text-gradient {

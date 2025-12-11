@@ -30,7 +30,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
               className={cn(
                 'absolute top-3 left-3 px-3 py-1 text-xs font-medium rounded-full',
                 product.badge === 'new' && 'bg-primary text-primary-foreground',
-                product.badge === 'bestseller' && 'bg-wood-medium text-primary-foreground',
+                product.badge === 'bestseller' && 'bg-primary text-primary-foreground',
                 product.badge === 'sale' && 'bg-destructive text-destructive-foreground'
               )}
             >

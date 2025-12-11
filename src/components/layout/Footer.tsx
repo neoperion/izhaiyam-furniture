@@ -34,28 +34,28 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="bg-wood-dark text-primary-foreground">
+    <footer className="bg-primary text-primary-foreground">
       {/* Main Footer */}
-      <div className="container-page py-12 md:py-16">
+      <div className="container-page py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-4">
-              <span className="text-2xl font-semibold tracking-tight">IZHAYAM HANDLOOM FURNITURE</span>
+              <span className="text-2xl font-bold tracking-tight text-primary-foreground">IZHAYAM HANDLOOM FURNITURE</span>
             </Link>
-            <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6 max-w-sm">
+            <p className="text-primary-foreground/85 text-sm leading-relaxed mb-6 max-w-sm">
               Crafting timeless furniture with passion and precision. Every piece tells a story of 
               quality craftsmanship and sustainable materials.
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.name}
                   href={social.href}
-                  className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary-foreground/20 transition-colors"
+                  className="w-11 h-11 rounded-lg bg-primary-foreground/20 flex items-center justify-center hover:bg-primary-foreground/30 transition-all duration-200"
                   aria-label={social.name}
                 >
-                  <social.icon className="w-4 h-4" />
+                  <social.icon className="w-5 h-5" />
                 </a>
               ))}
             </div>
@@ -63,13 +63,13 @@ export function Footer() {
 
           {/* Shop Links */}
           <div>
-            <h4 className="font-semibold mb-4">Shop</h4>
-            <ul className="space-y-2">
+            <h4 className="font-bold mb-5 text-primary-foreground text-base">Shop</h4>
+            <ul className="space-y-3">
               {footerLinks.shop.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                    className="text-sm text-primary-foreground/85 hover:text-primary-foreground/95 transition-colors font-medium"
                   >
                     {link.name}
                   </Link>
@@ -80,13 +80,13 @@ export function Footer() {
 
           {/* Company Links */}
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
-            <ul className="space-y-2">
+            <h4 className="font-bold mb-5 text-primary-foreground text-base">Company</h4>
+            <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                    className="text-sm text-primary-foreground/85 hover:text-primary-foreground/95 transition-colors font-medium"
                   >
                     {link.name}
                   </Link>
@@ -97,13 +97,13 @@ export function Footer() {
 
           {/* Support Links */}
           <div>
-            <h4 className="font-semibold mb-4">Support</h4>
-            <ul className="space-y-2">
+            <h4 className="font-bold mb-5 text-primary-foreground text-base">Support</h4>
+            <ul className="space-y-3">
               {footerLinks.support.map((link) => (
                 <li key={link.name}>
                   <Link
                     to={link.href}
-                    className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+                    className="text-sm text-primary-foreground/85 hover:text-primary-foreground/95 transition-colors font-medium"
                   >
                     {link.name}
                   </Link>
@@ -114,37 +114,37 @@ export function Footer() {
         </div>
 
         {/* Contact Info */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/10">
+        <div className="mt-12 pt-8 border-t border-primary-foreground/30">
           <div className="flex flex-col md:flex-row gap-6 md:gap-12">
-            <div className="flex items-center gap-3">
-              <MapPin className="w-5 h-5 text-primary-foreground/50" />
-              <span className="text-sm text-primary-foreground/70">
+            <div className="flex items-center gap-4">
+              <MapPin className="w-5 h-5 text-primary-foreground flex-shrink-0" />
+              <span className="text-sm text-primary-foreground/85 font-medium">
                 123 Furniture Lane, Design District, Mumbai 400001
               </span>
             </div>
-            <div className="flex items-center gap-3">
-              <Phone className="w-5 h-5 text-primary-foreground/50" />
-              <span className="text-sm text-primary-foreground/70">+91 98765 43210</span>
+            <div className="flex items-center gap-4">
+              <Phone className="w-5 h-5 text-primary-foreground flex-shrink-0" />
+              <span className="text-sm text-primary-foreground/85 font-medium">+91 98765 43210</span>
             </div>
-            <div className="flex items-center gap-3">
-              <Mail className="w-5 h-5 text-primary-foreground/50" />
-              <span className="text-sm text-primary-foreground/70">hello@izhayamfurniture.com</span>
+            <div className="flex items-center gap-4">
+              <Mail className="w-5 h-5 text-primary-foreground flex-shrink-0" />
+              <span className="text-sm text-primary-foreground/85 font-medium">hello@izhayamfurniture.com</span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-primary-foreground/10">
+      <div className="border-t border-primary-foreground/30 bg-primary/95">
         <div className="container-page py-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-primary-foreground/50">
+          <p className="text-sm text-primary-foreground/80 font-medium">
             © 2024 IZHAYAM HANDLOOM FURNITURE. All rights reserved.
           </p>
-          <div className="flex gap-6">
-            <Link to="/privacy" className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+          <div className="flex gap-8">
+            <Link to="/privacy" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="text-sm text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+            <Link to="/terms" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors font-medium">
               Terms of Service
             </Link>
           </div>

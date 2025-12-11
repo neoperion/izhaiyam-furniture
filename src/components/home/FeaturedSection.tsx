@@ -4,7 +4,7 @@ import { products } from '@/data/products';
 import { ProductCard } from '@/components/ui/ProductCard';
 
 export function FeaturedSection() {
-  const featuredProducts = products.filter((p) => p.badge === 'bestseller' || p.badge === 'new').slice(0, 4);
+  const featuredProducts = products.slice(0, 12);
 
   return (
     <section className="section-padding bg-card">
